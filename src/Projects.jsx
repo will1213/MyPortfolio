@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiGithub } from 'react-icons/fi';
+import { FiGithub, FiExternalLink } from 'react-icons/fi';
 import { IconContext } from 'react-icons';
 import './css/Projects.css';
 import pictionary from './assets/pictionary.jpg'
@@ -51,8 +51,11 @@ const Projects = () => {
           <h3 className='project-title'>
             Streaming Service Compiler
             <IconContext.Provider value={{ color: 'black' }}>
-                <a href={'https://will1213.github.io/UI/'} target="_blank" rel="noopener noreferrer">
+                <a href={'https://github.com/will1213/UI'} target="_blank" rel="noopener noreferrer">
                   <FiGithub />
+                </a>
+                <a href={'https://will1213.github.io/UI/'} target="_blank" rel="noopener noreferrer">
+                  <FiExternalLink />
                 </a>
             </IconContext.Provider>
           </h3>

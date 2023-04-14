@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/Card.css';
-import { FiGithub } from 'react-icons/fi';
+import { FiGithub, FiExternalLink } from 'react-icons/fi';
 import { IconContext } from 'react-icons';
 
 function Card({ title, description, gitLink, hostLink}) {
@@ -16,7 +16,11 @@ function Card({ title, description, gitLink, hostLink}) {
           </IconContext.Provider>
         )}
         {hostLink && (
-            <a href={hostLink} target="_blank" rel="noopener noreferrer">PLAY</a>
+            <IconContext.Provider value={{ color: 'black' }}>
+            <a href={hostLink} target="_blank" rel="noopener noreferrer">
+              <FiExternalLink />
+            </a>
+          </IconContext.Provider>
         )}
       </h2>
       <p className="card-description">{description}</p>

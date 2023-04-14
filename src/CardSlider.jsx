@@ -41,6 +41,9 @@ const CardSlider = () => {
         <div>
           <Card title="Online Chat system" description="Chat room designed for multiple people to chat over the internet." gitLink = "https://github.com/will1213/chat" />
         </div>
+        <div>
+          <Card title="Secuirty Post" description="Dive into a vulnerability found in ConnectWise that could lead to remote code execution" hostLink = "https://willhuang0.wordpress.com/2023/03/16/rce-vulnerability-that-could-affect-5000-servers/" />
+        </div>
       </Slider>
     </div>
   );
