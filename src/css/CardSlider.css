@@ -1,0 +1,23 @@
+.slider-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.slider-container > h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+.slick-slide > div {
+  margin: 0 15px;
+}
+
+.next {
+  right: 0;
+}
+
+.prev {
+  left: 0;
+}

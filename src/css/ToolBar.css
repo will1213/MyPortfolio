@@ -1,0 +1,52 @@
+.toolbar {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .toolbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 1000px;
+    height: 50px;
+  }
+  
+  .toolbar li {
+    margin: 0;
+  }
+  
+  .toolbar a {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 15px;
+  }
+  
+  .toolbar a:hover {
+    color: #fff;
+    background-color: #333;
+  }
+
+  
+  @media (max-width: 768px) {
+    .toolbar ul {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .toolbar a {
+      padding: 10px 0;
+    }
+  }
+  
