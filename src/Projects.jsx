@@ -25,7 +25,7 @@ const Projects = () => {
           <p>It's clone of skrible.io! </p>
           <p>A browser game that allow multiple users to play Pictionary in real-time.</p>
           <br/>
-          <p>Some highlights include enable user to login using google account and have a report system to ban the cheater from playing the game.</p>
+          <p>Some highlights include enabling user to login using google account and have a report system to ban the cheater from playing the game.</p>
         </div>
       </div>
       <div data-aos="fade-up" className="project">
@@ -39,9 +39,9 @@ const Projects = () => {
                 </a>
             </IconContext.Provider>
           </h3>
-          <p>Do you ever have experinced of losing something? or you couldn't find something? I believe so.</p>
+          <p>Have you ever experinced losing something? or you couldn't find something? I believe so.</p>
           <br/>
-          <p>This project creating a hardware device that can be used to track the location, and by using the website, the person can easily see the information about the device including GPS location.</p>
+          <p>This project integrate hardware and software that can be used to track the location, and with the website created, the person can easily see the information about the device including GPS location.</p>
 
         </div>
       </div>

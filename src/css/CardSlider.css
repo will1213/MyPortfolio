@@ -14,10 +14,13 @@
   margin: 0 15px;
 }
 
-.next {
-  right: 0;
-}
 
-.prev {
-  left: 0;
+@media (max-width: 768px) {
+  .slick-prev {
+    z-index: 1;
+    margin-left: 1rem;
+  }
+  .slick-next {
+    margin-right: 1rem;
+  }
 }
