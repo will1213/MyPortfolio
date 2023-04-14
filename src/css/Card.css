@@ -1,5 +1,5 @@
 .card {
-  background-color: #373A44;
+  background-color: #373a44;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   padding: 16px;
@@ -24,4 +24,14 @@
 .card-description {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .card {
+    height: auto;
+  }
+
+  .card-description {
+    line-height: 1.2rem;
+  }
 }
