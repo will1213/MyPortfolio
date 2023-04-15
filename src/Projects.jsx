@@ -15,7 +15,7 @@ const Projects = () => {
         <div className="project-description">
           <h3 className='project-title'>
             Pictionary
-            <IconContext.Provider value={{ color: 'black' }}>
+            <IconContext.Provider value={{ color: 'white' }}>
               <a href={'https://github.com/will1213/Inky.io'} target="_blank" rel="noopener noreferrer">
                 <FiGithub />
               </a>
@@ -33,7 +33,7 @@ const Projects = () => {
         <div className="project-description">
           <h3 className='project-title'>
             Assets Tracking System 
-            <IconContext.Provider value={{ color: 'black' }}>
+            <IconContext.Provider value={{ color: 'white' }}>
                 <a href={'https://github.com/will1213/tracking'} target="_blank" rel="noopener noreferrer">
                   <FiGithub />
                 </a>
@@ -50,7 +50,7 @@ const Projects = () => {
         <div className="project-description">
           <h3 className='project-title'>
             Streaming Service Compiler
-            <IconContext.Provider value={{ color: 'black' }}>
+            <IconContext.Provider value={{ color: 'white' }}>
                 <a href={'https://github.com/will1213/UI'} target="_blank" rel="noopener noreferrer">
                   <FiGithub />
                 </a>
@@ -59,11 +59,11 @@ const Projects = () => {
                 </a>
             </IconContext.Provider>
           </h3>
-          <p>There are lots of different streaming services out there nowday, and sometime the show you want to watch is on the other streaming service, which is VERY frustrating.</p>
+          <p>There are lots of different streaming services out there nowday, and sometime the show you want to watch is on another streaming service, which is VERY frustrating.</p>
           <br/>
-          <p>This project proposes the idea of combing all the streaming services you have subscribed, and directly watch any show from the software!</p>
+          <p>This project proposes the idea of combining all the streaming services you have subscribed, and directly watch any show from the software!</p>
           <br/>
-          <p>With the uses of IDEO designing thinking, the project is user friendly and very intuitive!</p>
+          <p>With the uses of IDEO designing thinkings, the project is user friendly and very intuitive!</p>
         </div>
       </div>
 

@@ -86,12 +86,12 @@ const Contact = () => {
             <div><FiPhone /><span style={{ marginLeft: "0.5rem" }}>(587)-664-8138</span></div>
             <div><FiMail /><span style={{ marginLeft: "0.5rem" }}>jenweiwill.huang@gmail.com</span></div>
         <div className='contact-info-links'>
-            <IconContext.Provider value={{ color: "black", size: "4em"}}>
+            <IconContext.Provider value={{ color: "white", size: "4em"}}>
                     <a href="https://github.com/will1213" target="_blank" rel="noopener noreferrer">
                         <FiGithub/>
                     </a>
             </IconContext.Provider>
-            <IconContext.Provider value={{ color: "black", size: "4em"}}>
+            <IconContext.Provider value={{ color: "white", size: "4em"}}>
                     <a href="https://www.linkedin.com/in/will-huang-61303119a/" target="_blank" rel="noopener noreferrer">
                         <FiLinkedin/>
                     </a>
