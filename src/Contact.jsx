@@ -83,7 +83,7 @@ const Contact = () => {
       </div> */}
       <div className="contact-info-container">
         <h2>Contact Information</h2>
-            <div><FiPhone /><span style={{ marginLeft: "0.5rem" }}>(587)-664-8138</span></div>
+            {/* <div><FiPhone /><span style={{ marginLeft: "0.5rem" }}>(587)-664-8138</span></div> */}
             <div><FiMail /><span style={{ marginLeft: "0.5rem" }}>jenweiwill.huang@gmail.com</span></div>
         <div className='contact-info-links'>
             <IconContext.Provider value={{ color: "white", size: "4em"}}>
