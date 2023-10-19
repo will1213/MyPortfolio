@@ -5,6 +5,8 @@ import './css/Projects.css';
 import pictionary from './assets/pictionary.jpg'
 import tracking from './assets/tracking.jpg';
 import StreamingServiceCompiler from './assets/StreamingServiceCompiler.png';
+import DownStair from './assets/DownStair.png';
+
 
 const Projects = () => {
   return (
@@ -46,7 +48,29 @@ const Projects = () => {
         </div>
       </div>
       <div data-aos="fade-up"  className="project">
-        <img src={StreamingServiceCompiler} className="project-Img" alt="project3" />
+        <img src={DownStair} className="project-Img" alt="project3" />
+        <div className="project-description">
+          <h3 className='project-title'>
+            Down Stair Game
+            <IconContext.Provider value={{ color: 'white' }}>
+                <a href={'https://github.com/will1213/DownStairGame'} target="_blank" rel="noopener noreferrer">
+                  <FiGithub />
+                </a>
+                <a href={'https://will1213.github.io/DownStairGame/'} target="_blank" rel="noopener noreferrer">
+                  <FiExternalLink />
+                </a>
+            </IconContext.Provider>
+          </h3>
+          <p>It's a web based game.</p>
+          <br/>
+          <p>GIVE A TRY AND JUST SURIVIVE!</p>
+          <br/>
+          <p>Using Javascript game framework phaser to develop the game and create animation to display character turning.</p>
+          <br/>
+        </div>
+      </div>
+      <div data-aos="fade-up"  className="project">
+        <img src={StreamingServiceCompiler} className="project-Img" alt="project4" />
         <div className="project-description">
           <h3 className='project-title'>
             Streaming Service Compiler
